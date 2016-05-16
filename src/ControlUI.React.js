@@ -13,9 +13,8 @@ export default class ControlUI extends Component {
 	}
 	render() {
 		return (<div className="container">
-		 <div className="row">
-		<LayoutLibrary/><ScreenGroup/><DeviceLibrary/></div>
-	</div>);
+		 				<div className="row"><LayoutLibrary/><ScreenGroup/><DeviceLibrary/></div>
+				</div>);
 	}
 	handleX() {
 
