@@ -12,8 +12,9 @@ export default class ControlUI extends Component {
 		this.handleZ =  this.handleZ.bind(this)
 	}
 	render() {
+		var layoutprops={"title":"布局2"};
 		return (<div className="container">
-		 				<div className="row"><LayoutLibrary/><ScreenGroup/><DeviceLibrary/></div>
+		 				<div className="row"><LayoutLibrary props={layoutprops} title="布局3"/><ScreenGroup/><DeviceLibrary/></div>
 				</div>);
 	}
 	handleX() {
